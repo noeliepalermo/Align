@@ -2,12 +2,12 @@
 
 ## Introduction
 
-Project done for the 1st year of Master degree in Bioinformatics' intership - Program in C++ able to calculate evolutionary distances between amino acid sequences from an aligned FASTA file and create a distance matrice using 5 methods:
+Project done for the 1st year of Master degree in Bioinformatics' intership - Program in C++ able to calculate evolutionary distances between amino acids sequences from an aligned FASTA file and create a distance matrice using 5 methods:
 - Distance estimation [Default].
-- Jukes-Cantor model for amino acid [1].
-- Poisson model for amino acid [2].
+- Jukes-Cantor model for amino acids [1].
+- Poisson model for amino acids [2].
 - Estimation of Kimura for PAM model [3].
-- Estimation models for evolutionary distances between amino acid sequences: Poisson Correction and Equal-Input from Thomas Bigot and al., article [4].
+- Estimation models for evolutionary distances between amino acids sequences: Poisson Correction and Equal-Input from Thomas Bigot and al., article [4].
 
 ## Installation
 
@@ -33,17 +33,17 @@ You can use only one option for the evolutionary distances method and the output
 
 ```-h```,```--help```: Display informations about the program.
 
-```-jc```,```--jukescantor```: Jukes-Cantor model for amino acid.
+```-jc```,```--jukescantor```: Jukes-Cantor model for amino acids.
 
 ```-k```, ```--kimura```: Estimation of Kimura for PAM model.
 
-```-p```,```--poisson```: Poisson model for amino acid.
+```-p```,```--poisson```: Poisson model for amino acids.
 
 ```-pc```,```--poissoncorrection```: Poisson Correction method from Thomas Bigot and al., article.
 
 ```-ei```,```--equalinput```: Equal-Input method from Thomas Bigot and al., article.
 
-The two methods (Poisson Correction and Equal-Input) from Thomas Bigot and al., article, estimate evolutionary distances for 27 amino acid substitution models:
+The two methods (Poisson Correction and Equal-Input) from Thomas Bigot and al., article, estimate evolutionary distances for 27 amino acids substitution models:
 ```AB```, ```BLOSUM62```, ```cpREV64```, ```cpREV```, ```Dayhoff``` [Default], ```DCMut-Dayhoff```, ```DCMut-JTT```, ```DEN```, ```FLU```, ```gcpREV```, ```HIVb```, ```HIVw```, ```JTT```, ```LG```, ```mtART```, ```mtInv```, ```mtMAM```, ```mtMet```, ```mtREV```, ```mtVer```, ```mtZOA```, ```PMB```, ```rtREV```, ```stmtREV```, ```VT```, ```WAG``` and ```WAG*```.
 
 ### Output file options:
