@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Project done for the 1st year of Master degree in Bioinformatics' intership - Program in C++ able to calculate evolutionary distances between amino acid sequences and create a distance matrice using 5 methods:
+Project done for the 1st year of Master degree in Bioinformatics' intership - Program in C++ able to calculate evolutionary distances between amino acid sequences from an aligned FASTA file and create a distance matrice using 5 methods:
 - Distance estimation [Default].
 - Jukes-Cantor model for amino acid [1].
 - Poisson model for amino acid [2].
@@ -21,8 +21,10 @@ g++ main.cpp -o align
 ## Usage
 
 ```
-./align [evolutionary distances method option] FASTA file [output file option]
+./align [evolutionary distances method option] aligned FASTA file [output file option]
 ```
+The FASTA file must contain aligned proteins sequences.
+
 You can use only one option for the evolutionary distances method and the output file.
 
 ### Evolutionary distances methods options:
