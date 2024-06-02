@@ -6,7 +6,7 @@ Project done for the 1st year of Master degree in Bioinformatics' intership - Pr
 - Distance estimation [Default].
 - Jukes-Cantor model for amino acids [1].
 - Poisson model for amino acids [2].
-- Estimation of Kimura for PAM model [3].
+- Kimura estimation for PAM model [3].
 - Estimation models for evolutionary distances between amino acids sequences: Poisson Correction and Equal-Input from Thomas Bigot and al., article [4].
 
 ## Installation
@@ -35,7 +35,7 @@ You can use only one option for the evolutionary distances method and the output
 
 ```-jc```,```--jukescantor```: Jukes-Cantor model for amino acids.
 
-```-k```, ```--kimura```: Estimation of Kimura for PAM model.
+```-k```, ```--kimura```:  Kimura estimation for PAM model.
 
 ```-p```,```--poisson```: Poisson model for amino acids.
 
